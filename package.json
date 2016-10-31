@@ -1,0 +1,27 @@
+{
+  "name": "CanvasTemplate",
+  "version": "0.9.0",
+  "description": "Canvas template for a javascript game",
+  "author": "Richard Foligno",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp clean && gulp build",
+    "watch": "gulp watch",
+    "server": "http-server -p 3000 -d false dist/"
+  },
+  "devDependencies": {
+    "del": "2.2.2",
+    "gulp": "3.9.1",
+    "gulp-concat": "2.6.0",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "2.3.2",
+    "gulp-sourcemaps": "2.1.1",
+    "gulp-uglify": "2.0.0",
+    "gulp-watch": "4.3.10",
+    "http-server": "0.9.0",
+    "pump": "1.0.1",
+    "vinyl-source-stream": "1.1.0",
+    "webpack-stream": "3.2.0"
+  },
+  "private": true
+}

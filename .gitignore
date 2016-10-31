@@ -1,0 +1,12 @@
+# Editor Configs
+.idea
+
+# Node / NPM
+/node_modules
+npm-debug.log
+
+# Output files
+/dist
+
+# Just in case
+.DS_Store
