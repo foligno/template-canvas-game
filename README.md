@@ -18,10 +18,11 @@ __Usage:__
 `npm run build` - Package js, concatenate library js files, compress js,
 compile Sass, and copy files to dist folder.  
 `npm run server` - Run the test server, serving files under the `dist/`
-directory.  
+directory to `http://127.0.0.1:3000`.  
 `npm run watch` - Watches file changes. For files under `src/js/`, it will
 run js tasks. For files under `src/sass` is will compile to css. For any
 other file, it will copy the file to the relative path in the `dist/` directory
 so it can be used on the test server.
 
-Access the game at `http://127.0.0.1:3000`.
+Once you're done creating, your `/dist/` directory should be all you need
+to copy to your web server.
