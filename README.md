@@ -2,9 +2,9 @@
 
 __What's this for?__
 
-Use this template to get started building games (or anything really) using the canvas. It uses
-gulp with Sass, Webpack and http-server, so you can worry less about building
-it and more about coding it.
+Use this template to get started building games (or anything really) using
+the canvas. It uses gulp with Sass, Webpack and http-server, so you can
+worry less about building it and more about coding it.
 
 __Pre-requirements:__  
 
@@ -23,6 +23,10 @@ directory to `http://127.0.0.1:3000`.
 run js tasks. For files under `src/sass` is will compile to css. For any
 other file, it will copy the file to the relative path in the `dist/` directory
 so it can be used on the test server.
+
+Now that you've learned the basics, you can head over can head over to
+[HTML5GameEngine.com](https://html5gameengine.com/) to find a nice game
+library/engine to use.
 
 Once you're done creating, your `/dist/` directory should be all you need
 to copy to your web server.
