@@ -30,3 +30,7 @@ library/engine to use.
 
 Once you're done creating, your `/dist/` directory should be all you need
 to copy to your web server.
+
+---
+
+This is by no means complete so suggestions and pull requests are welcome.
